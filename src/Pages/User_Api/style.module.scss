@@ -1,0 +1,32 @@
+.div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.leftDiv {
+  width: 300px;
+  height: 100%;
+  margin-right: 5px;
+  background: #fff;
+
+}
+
+.right-div {
+  width: calc(100% - 305px);
+  height: 100%;
+}
+
+.right-top-div {
+  height: 70px;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 5px;
+}
+
+.right-bottom-div {
+  background: #fff;
+  width: 100%;
+  height: calc(100% - 75px);
+  padding: 12px;
+}
